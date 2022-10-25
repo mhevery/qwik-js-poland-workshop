@@ -1,0 +1,36 @@
+.poster {
+  width: 200px;
+  margin: 1em;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.rating {
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.rating .back {
+  /* position: absolute;*/
+  color: lightgray;
+}
+
+.bar {
+  display: inline-block;
+}
+
+.rating .front {
+  position: absolute;
+  width: 3em;
+  overflow: hidden;
+  z-index: 1;
+}
